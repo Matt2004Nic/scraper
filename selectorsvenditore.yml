@@ -1,0 +1,13 @@
+recensioneseller:
+    css: div.a-section.a-spacing-none
+    xpath: null
+    type: Text
+    children:
+        recensionevenditore:
+            css: 'div#seller-feedback-summary.a-row'
+            xpath: null
+            type: Text
+        numerorecensionevenditore:
+            css: 'div.a-column div.a-row span.a-declarative a.a-link-normal'
+            xpath: null
+            type: Text

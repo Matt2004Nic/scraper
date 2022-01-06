@@ -1,0 +1,38 @@
+seller:
+    css: div.a-box.a-last
+    xpath: null
+    type: Text
+    children:
+        nomevenditore:
+            css: 'div.tabular-buybox-text a'
+            xpath: null
+            type: Text
+        nomespedizione:
+            css: 'div.tabular-buybox-text:nth-of-type(2) span.a-size-small'
+            xpath: null
+            type: Text
+        urlvenditore:
+            css: 'div.tabular-buybox-text a'
+            xpath: null
+            type: Link
+        prezzo:
+            css: 'div.a-section.a-spacing-micro span:nth-of-type(2)'
+            xpath: null
+            type: Text
+        costospedizione:
+            css: 'div#mir-layout-DELIVERY_BLOCK-slot-DELIVERY_MESSAGE.a-spacing-base'
+            xpath: null
+            type: Text
+product:
+    css: 'div#ppd'
+    xpath: null
+    type: Text
+    children:
+        recensioneprodotto:
+            css: 'span.reviewCountTextLinkedHistogram a.a-popover-trigger'
+            xpath: null
+            type: Text
+        numerorecensioneprodotto:
+            css: 'div#averageCustomerReviews_feature_div.celwidget a.a-link-normal'
+            xpath: null
+            type: Text

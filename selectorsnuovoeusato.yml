@@ -1,0 +1,68 @@
+product:
+    css: 'div#ppd'
+    xpath: null
+    type: Text
+    children:
+        recensioneprodotto:
+            css: 'span.reviewCountTextLinkedHistogram a.a-popover-trigger'
+            xpath: null
+            type: Text
+        nomerecensioneprodotto:
+            css: 'div#averageCustomerReviews_feature_div.celwidget span.a-size-base'
+            xpath: null
+            type: Text
+seller:
+    css: 'div#desktop_accordion.celwidget'
+    xpath: null
+    type: Text
+    children:
+        venditorenuovo:
+            css: div.a-box.a-accordion-active
+            xpath: null
+            type: Text
+            children:
+                prezzo:
+                    css: 'div.a-column span.a-price span:nth-of-type(2)'
+                    xpath: null
+                    type: Text
+                costospedizione:
+                    css: 'div#mir-layout-DELIVERY_BLOCK-slot-DELIVERY_MESSAGE.a-spacing-base a'
+                    xpath: null
+                    type: Text
+                nomevenditore:
+                    css: 'div.tabular-buybox-text:nth-of-type(4) span.a-size-small'
+                    xpath: null
+                    type: Text
+                urlvenditore:
+                    css: 'div.tabular-buybox-text:nth-of-type(4) span.a-size-small'
+                    xpath: null
+                    type: Link
+                nomespedizione:
+                    css: 'div.tabular-buybox-text:nth-of-type(2) span.a-size-small'
+                    xpath: null
+                    type: Text
+        venditoreusato:
+            css: 'div#usedAccordionRow.a-box a.a-accordion-row'
+            xpath: null
+            type: Text
+            children:
+                condizione:
+                    css: 'div#usedAccordionCaption_feature_div.celwidget div.a-row'
+                    xpath: null
+                    type: Text
+                prezzo:
+                    css: 'span.a-price span:nth-of-type(2)'
+                    xpath: null
+                    type: Text
+                nomespedizione:
+                    css: 'div.a-row:nth-of-type(1) span.a-size-small:nth-of-type(2)'
+                    xpath: null
+                    type: Text
+                nomevenditore:
+                    css: 'div.a-row:nth-of-type(2) span.a-size-small:nth-of-type(2)'
+                    xpath: null
+                    type: Text
+                urlvenditore:
+                    css: 'div.a-row:nth-of-type(2) span.a-size-small:nth-of-type(2)'
+                    xpath: null
+                    type: Link

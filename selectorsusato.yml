@@ -1,0 +1,38 @@
+products:
+    css: div.premium_ce_brands
+    xpath: null
+    type: Text
+    children:
+        recensioneprodotto:
+            css: 'span.reviewCountTextLinkedHistogram a.a-popover-trigger'
+            xpath: null
+            type: Text
+        numerorecensioneprodotto:
+            css: 'div#averageCustomerReviews_feature_div.celwidget span.a-size-base'
+            xpath: null
+            type: Text
+seller:
+    css: 'div.a-row.a-spacing-medium div.a-box-inner'
+    xpath: null
+    type: Text
+    children:
+        nomevenditore:
+            css: 'a#sellerProfileTriggerId.a-link-normal'
+            xpath: null
+            type: Text
+        urlvenditore:
+            css: 'a#sellerProfileTriggerId.a-link-normal'
+            xpath: null
+            type: Link
+        nomespedizione:
+            css: 'a#SSOFpopoverLink_ubb.a-link-normal'
+            xpath: null
+            type: Text
+        prezzo:
+            css: 'div.a-column span.a-size-base'
+            xpath: null
+            type: Text
+        costospedizione:
+            css: 'div#mir-layout-DELIVERY_BLOCK-slot-DELIVERY_MESSAGE.a-spacing-base a:nth-of-type(1)'
+            xpath: null
+            type: Text
